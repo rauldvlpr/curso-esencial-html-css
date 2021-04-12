@@ -5,3 +5,20 @@ body {
 a {
   color: #212121;
 }
+
+h1 {
+  font-size: 60px;
+ /* font-size: 3.75em; */
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+header {
+  font-size: 14px;
+}
