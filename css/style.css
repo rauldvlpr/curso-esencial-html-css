@@ -1,18 +1,38 @@
 :root{
   font-size: 18px;
+  --colorgray30: #212121;
+  --colorgray20: #212449;
+  --colorgray10: #616161;
 }
 
 body {
-  color:#212121;
+  color: var(--colorgray30);
 }
 
 a {
-  color: #212121;
+  color: var(--colorgray30);
+}
+
+header {
+  font-size: 14px;
+  color:var(--colorgray10);
+}
+
+header a {
+  color: #616161;
+  text-decoration: none;
+}
+
+header a:hover{
+  color:var(--colorgray10);
+}
+
+nav details summary{
+  font-weight: bold;
 }
 
 h1 {
   font-size: 60px;
- /* font-size: 3.75em; */
 }
 
 h2 {
@@ -23,20 +43,3 @@ h3 {
   font-size: 1.5em;
 }
 
-header {
-  font-size: 14px;
-  color: #616161;
-}
-
-header a {
-  color: #616161;
-  text-decoration: none;
-}
-
-header a:hover{
-  color:#212121;
-}
-
-nav details summary{
-  font-weight: bold;
-}
